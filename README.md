@@ -1,8 +1,6 @@
 ## Project Overview
 
-DataTel Communications generates millions of records every day across three disconnected operational systems. Each system stores data independently with no shared structure, no common formatting, and no way to connect a customer's billing history to their network usage or their profile. The result is a business flying blind — unable to identify its most valuable customers, detect early signs of churn, or spot customers consuming far more than they pay for.
-
-This pipeline was built to fix that.
+DataTel Communications generates millions of records every day across three disconnected operational systems. Each system stores data independently with no shared structure, no common formatting, and no way to connect a customer's billing history to their network usage or their profile. The result is a business flying blind, unable to identify its most valuable customers, detect early signs of churn, or spot customers consuming far more than they pay for.
 
 ---
 
@@ -98,7 +96,7 @@ Datatel-Communications-Pipeline/
 │   ├── revenue_vs_usage_mismatch.csv
 │   └── dw_user_analytics.csv
 │
-└── raw_data/                  ← raw CSV files (excluded from GitHub — too large)
+└── raw_data/                  ← raw CSV files (excluded from GitHub; too large)
 ```
 
 ---
@@ -146,6 +144,6 @@ python3 main.py
 ## Tools Used
 
 - **Google BigQuery:** cloud data warehouse where all 13 tables live and all SQL runs
-- **Python 3:** pipeline orchestration — connects to BigQuery, reads SQL files, runs them in order
+- **Python 3:** pipeline orchestration; connects to BigQuery, reads SQL files, and runs them in order
 - **Google Cloud SDK:** authenticates Python to BigQuery from the local Mac terminal
 - **Git & GitHub:** version control and public project hosting
