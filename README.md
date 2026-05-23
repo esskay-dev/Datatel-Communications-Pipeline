@@ -1,6 +1,6 @@
 ## Project Overview
 
-DataTel Communications generates millions of records every day across three disconnected operational systems. Each system stores data independently with no shared structure, no common formatting, and no way to connect a customer's billing history to their network usage or their profile. The result business is basically flying blind, unable to identify its most valuable customers, detect early signs of churn, or spot customers consuming far more than they pay for.
+DataTel Communications generates millions of records every day across three disconnected operational systems. Each system stores data independently with no shared structure, no common formatting, and no way to connect a customer's billing history to their network usage or their profile. The business is basically flying blind, unable to identify its most valuable customers, detect early signs of churn, or spot customers consuming far more than they pay for.
 
 ---
 
