@@ -1,0 +1,28 @@
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files - NEVER push these to GitHub
+.env
+.env.local
+
+# Virtual environment folders
+venv/
+env/
+
+# BigQuery credentials file
+credentials.json
+service_account.json
+
+# Raw data files - too large for GitHub
+raw_data/
+
+# Config folder - contains sensitive settings
+config/
