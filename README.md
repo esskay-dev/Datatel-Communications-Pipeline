@@ -14,7 +14,7 @@ python3 main.py
 
 The pipeline automatically:
 - Loads 4.6 million raw records into Google BigQuery
-- Runs data quality checks and surfaces any bad data 
+- Runs data quality checks and shows any bad data 
 - Cleans, deduplicates, and standardises all three source tables
 - Builds aggregated business metrics per customer
 - Joins everything into one unified analytics table
